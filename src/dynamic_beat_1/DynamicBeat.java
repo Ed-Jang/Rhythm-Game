@@ -21,6 +21,9 @@ public class DynamicBeat extends JFrame{
 		setVisible(true);
 		
 		introBackground = new ImageIcon(Main.class.getResource("../images/introBackground(Title).jpg")).getImage();
+		
+		Music introMusic = new Music("20200913 Golden Ring Mastering.mp3",true);
+		introMusic.start();
 	}
 	
 	public void paint(Graphics g) {
